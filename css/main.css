@@ -11,16 +11,16 @@ body {
     //width: 800px;
 }
 h1 {
-  color: rgba(220,220,0,0.8);
+  color: rgba(220,220,0);
   font-size: 24px;
   font-family: monospace;
   font-weight: bold;
 }
-h2 { color: rgba(220,220,0,0.7); }
-h3 { color: rgba(220,220,0,0.6); }
-h4 { color: rgba(220,220,0,0.5); }
-h5 { color: rgba(220,220,0,0.4); }
-h6 { color: rgba(220,220,0,0.3); }
+h2 { color: rgba(220,220,0,0.9); }
+h3 { color: rgba(220,220,0,0.8); }
+h4 { color: rgba(220,220,0,0.7); }
+h5 { color: rgba(220,220,0,0.6); }
+h6 { color: rgba(220,220,0,0.5); }
 footer {
     color: rgba(220,220,0,0.8);
     font-weight: bold;
@@ -81,10 +81,33 @@ pre {
     -moz-border-radius: 3px;
     border-radius: 3px;
     overflow:auto;
-		font-family: monospace;
-		font-size: 12px;
-		color: rgba(255,255,255,0.4);
+    font-family: monospace;
+    font-size: 12px;
+    color: rgba(100,255,100,0.9);
+    min-width: 540px;
 }
+
+/*포트폴리오에 쓰일 pre (without border line)*/
+pre#pre_portfolio {
+    background-color: rgba(0,0,0);
+    border: 0px;
+    color: rgba(100,255,100,0.9);
+    text-align: left;
+    margin: 0;
+    font-size: 14px;
+}
+
+/*포트폴리오에 쓰일 pre (without border line)*/
+pre#pre_portfolio_lined {
+    background-color: rgba(0,0,0);
+    border: 1px dashed rgba(255,255,255,0.5);
+    color: rgba(100,255,100,0.9);
+    text-align: left;
+    margin: 0;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
+
 img {
     width: 80%;
     margin-left: 10%;
@@ -94,6 +117,18 @@ img {
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
+
+/*포트폴리오에 쓰일 초상화 */
+img#img_portfolio {
+    width: 100%;
+    margin-left: 0;
+    border: 0px;
+    padding: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
 iframe {
     width: 750px;
     height: 400px;
@@ -127,12 +162,25 @@ td {
     border: 1px dashed rgba(255, 255, 255, 0.5);
 }
 
+thead {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+th {
+    text-align: center;
+}
+
 caption {
     display: none;
 }
 
 table a {
     color: white;
+}
+
+a#anchor {
+    color: rgba(100,255,100,1);
+    text-decoration: underline;
 }
 /* End Table style */
 
@@ -214,6 +262,16 @@ table a {
 }
 .number {
     color: rgba(255,255,255,0.7);
+}
+
+.origin{
+    font-size: 7px;
+    text-align: right;
+}
+
+.cmdStyle{
+    color: rgba(100,255,100,0.9);
+    font-size: 15px;
 }
 
 blockquote {

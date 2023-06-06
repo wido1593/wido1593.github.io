@@ -1,15 +1,23 @@
 <header class="row">
   <div class="col-lg-8 col-lg-offset-2">
-    <h1 class="">Jaehoonman's blog</h1>
+    <h1 class="">Jaehoonman World</h1>
     <p>
-    <span class="reserved">char</span> nick[<span class="number">9</span>] = <span class="string">"{{ site.nick }}"</span>;
+    <span class="reserved">String</span> id = <span class="string">"{{ site.id }}"</span>;
     </p>
     <p>
-    printf(<a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank"><span class="string">"https://{{ site.source_code.server }}/<span class="reserved">%s\n</span>"</span></a>,nick);
+      <span class="reserved">String</span> nick = <span class="string">"{{ site.nick }}"</span>;
     </p>
     <p>
-    printf(<span class="string">"<span class="reserved">%s\x40</span>{{ site.mail.domain }}<span class="reserved">\x2e\\\b</span>{{ site.mail.ext }}<span class="reserved">\n</span>"</span>,nick);
+      System.out.println(<span>"GitHub Repository:" + </span> <a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank"><span class="string">"https://{{ site.source_code.server }}/" + id</span></span></a>);
     </p>
+
+    <p>
+      System.out.println(<span>"Tistory Blog:" + </span> <a href="https://{{ site.blog.nick }}.{{ site.blog.server }}" target="_blank"><span class="string">"https://" + nick + ".{{ site.blog.server }}" </span></span></a>);
+    </p>
+
+    <!--<p>
+    System.out.println(<span class="string">"<span class="reserved">%s\x40</span>{{ site.mail.domain }}<span class="reserved">\x2e\\\b</span>{{ site.mail.ext }}<span class="reserved">\n</span>"</span>,nick);
+    </p>-->
     <!--<p>
       printf(<a href="https://{{ site.blog.nick }}.{{ site.blog.server }}" target="_blank"><span class="string">"https://<span class="reserved">%s</span>.{{ site.blog.server }}<span class="reserved">\n</span>"</span></a>,nick);
     </p>-->

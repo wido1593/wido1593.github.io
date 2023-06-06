@@ -1,0 +1,79 @@
+#skillset
+#---------------------------------------
+
+#web
+- name: Spring Framework
+  type: Web
+  level : High
+
+- name : Spring Boot
+  type: Web
+  level : High
+
+- name : JSP
+  type: Web
+  level : High
+
+- name : Javascript / jQuery
+  type: Web
+  level : High
+
+- name : Bootstrap
+  type: Web
+  level : High
+
+- name : JPA
+  type: Web
+  level : Middel
+
+
+#server
+- name: Linux
+  type: Server
+  level: High
+
+- name: AWS
+  type: Server
+  level: Middle
+
+
+#database
+- name : PostgreSQL
+  type: DB
+  level : High
+
+- name : MyBatis
+  type: DB
+  level : High
+
+- name : MySQL
+  type: DB
+  level : Middle
+
+- name : MsSQL
+  type: DB
+  level : Middle
+
+
+#programming
+- name : Java
+  type: Programming
+  level : High
+
+- name : C/C++
+  type: Programming
+  level : Middle
+
+
+#Tool
+- name : Eclipse
+  type: Tool
+  level : High
+
+- name : STS(Spring Tool Suite)
+  type: Tool
+  level : High
+
+- name : IntelliJ
+  type: Tool
+  level : High
