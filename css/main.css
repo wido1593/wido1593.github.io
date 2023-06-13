@@ -82,9 +82,10 @@ pre {
     border-radius: 3px;
     overflow:auto;
     font-family: monospace;
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(100,255,100,0.9);
     min-width: 540px;
+    white-space: pre-wrap;
 }
 
 /*포트폴리오에 쓰일 pre (without border line)*/
@@ -94,7 +95,6 @@ pre#pre_portfolio {
     color: rgba(100,255,100,0.9);
     text-align: left;
     margin: 0;
-    font-size: 14px;
 }
 
 /*포트폴리오에 쓰일 pre (without border line)*/
@@ -104,7 +104,6 @@ pre#pre_portfolio_lined {
     color: rgba(100,255,100,0.9);
     text-align: left;
     margin: 0;
-    font-size: 14px;
     white-space: pre-wrap;
 }
 
@@ -179,7 +178,7 @@ table a {
 }
 
 a#anchor {
-    color: rgba(100,255,100,1);
+    color: rgba(220,220,0,0.8);
     text-decoration: underline;
 }
 /* End Table style */
