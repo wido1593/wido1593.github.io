@@ -188,7 +188,7 @@ Career
 ├── Transcosmos_Korea
 │   └── Position
 │       └── Back-end-Devleoper
-│   └── Project
+│   └── Project (Click2open)
 │       └──<button class="accordion">네이버톡톡 상담 채널 도입.</button>
 <div class="accordionPanel">│           └── period
 │               └── 2023.05~
@@ -392,12 +392,12 @@ CTI, 통계, 녹취와 같은 다른 파트와 협업하면서 연동 지식을 
 
 동료들과 협업하면서 조금씩 모양을 갖춰가는 과정에서 협업의 중요함과 보람을 많이 느꼈습니다.
 
-Messages Properties로 모든 텍스트를 Key=Value의 형태로 추출하고, 페이지 호출 시 사용하는 코드를 클릭 한 번으로 생성해 주는 기능을 제작하여 원활한 작업이 될  수 있도록 지원하였습니다.
+Messages Properties로 모든 텍스트를 Key=Value의 형태로 추출하고, 페이지 호출 시 사용하는 코드를 클릭 한 번으로 생성해 주는 기능을 제작하여 원활한 작업이 될 수 있도록 지원하였습니다.
 </pre></div>│
 ├── （株式会社）Innocence＿Design
 │   └── Position
 │       └── Full-stack-Developer(Intern)
-│   └── Project
+│   └── Project (Click2open)
 │       └──<button class="accordion">지역 단체 체육회 홍보 사이트, 식료품점 홍보 사이트 제작.</button>
 <div class="accordionPanel">│           └── period
 │               └── 2019.09~2019.12
@@ -406,7 +406,7 @@ Messages Properties로 모든 텍스트를 Key=Value의 형태로 추출하고, 
 │               └── HTML/CSS/JS/Bootstrap.
 │               └── Maria DB.
 │           └── do
-│               └── PHP  프레임 워크를 이용 백엔드 개발.
+│               └── PHP 프레임 워크를 이용 백엔드 개발.
 │               └── HTML / CSS / JS 를 이용한 프론트엔드 개발
 │               └── 사내 자체 Linux 서버 구축.
 │               └── MariaDB 데이터 베이스 구축.
@@ -416,7 +416,7 @@ Messages Properties로 모든 텍스트를 Key=Value의 형태로 추출하고, 
 > review
 개발자로서 처음 실무를 맡아본 프로젝트였습니다.
 
-일본 오사카 디자인회사에서 3개월 정도 인턴으로 일을 하면서 실무는 물론, 문화를 배울 수 있었습니다.
+일본 오사카 디자인회사에서 3개월간 인턴으로 일을 하면서 실무는 물론, 문화를 배울 수 있었습니다.
 
 퍼블리셔 위주의 정적으로 제작되는 사이트에 PHP와 DB를 접목해 동적 웹 프로젝트의 기반을 잡았습니다.
 </pre></div>
