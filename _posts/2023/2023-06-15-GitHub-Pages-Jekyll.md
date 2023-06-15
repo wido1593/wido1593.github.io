@@ -1,7 +1,7 @@
 ---
 layout: post_GitHubPages
 title:	"[GitHub Page] GitHub Pages Jekyll로 테마 설정하기."
-date:	2023-05-22 12:00:00
+date:	2023-06-15 12:00:00
 categories:
 - blog
 tags:
